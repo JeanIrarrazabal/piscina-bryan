@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/piscina-bryan/static/css/main.29de0cd5.css",
-    "main.js": "/piscina-bryan/static/js/main.07483efe.js",
+    "main.css": "/piscina-bryan/static/css/main.8f6f4282.css",
+    "main.js": "/piscina-bryan/static/js/main.a575219e.js",
     "index.html": "/piscina-bryan/index.html",
-    "main.29de0cd5.css.map": "/piscina-bryan/static/css/main.29de0cd5.css.map",
-    "main.07483efe.js.map": "/piscina-bryan/static/js/main.07483efe.js.map"
+    "main.8f6f4282.css.map": "/piscina-bryan/static/css/main.8f6f4282.css.map",
+    "main.a575219e.js.map": "/piscina-bryan/static/js/main.a575219e.js.map"
   },
   "entrypoints": [
-    "static/css/main.29de0cd5.css",
-    "static/js/main.07483efe.js"
+    "static/css/main.8f6f4282.css",
+    "static/js/main.a575219e.js"
   ]
 }
