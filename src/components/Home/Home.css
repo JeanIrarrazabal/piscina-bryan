@@ -1,0 +1,113 @@
+.home-section {
+  position: relative;
+  color: #ffffff;
+  margin: 20px 150px;
+}
+
+/* Fondo de portada */
+.home-overlay {
+  height: 30vh;
+  background: linear-gradient(
+      rgba(0, 74, 173, 0.7),
+      rgba(0, 74, 173, 0.7)
+    ),
+    url('https://image.slidesdocs.com/responsive-images/background/crystal-clear-blue-pool-as-a-perfect-in-3d-powerpoint-background_f493d72a15__960_540.jpg') no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-content {
+  max-width: 600px;
+  padding: 1rem;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  padding-bottom: 10px;
+}
+
+.cta-button {
+  background-color: #25d366;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #1eae58;
+}
+
+/* Sección de beneficios */
+.benefits-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 1rem;
+  background-color: #f0f4f8;
+  color: #333;
+  text-align: center;
+}
+
+.benefit {
+  flex: 1;
+  max-width: 300px;
+  padding: 1rem;
+}
+
+.benefit h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.benefit p {
+  font-size: 1rem;
+}
+
+/* Sección de testimonios */
+.testimonial-section {
+  padding: 2rem 1rem;
+  background-color: #ffffff;
+  text-align: center;
+  color: #333;
+}
+
+.testimonial-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.testimonial-section p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 1.5rem;
+}
+
+.testimonial-section .cta-button {
+  background-color: #0074ad;
+}
+
+.testimonial-section .cta-button:hover {
+  background-color: #005f8a;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 425px) {
+  .benefits-section {
+    flex-direction: column;
+    
+  }
+
+  .benefit {
+    margin-bottom: 1rem;
+  }
+
+  .home-section {
+    margin: 20px 20px;
+  }
+}
+

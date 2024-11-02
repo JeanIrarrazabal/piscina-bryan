@@ -1,0 +1,56 @@
+.header {
+  text-align: center;
+  background: linear-gradient(
+      rgba(0, 74, 173, 0.7),
+      rgba(0, 74, 173, 0.7)
+    ),
+    url('https://www.offertiles.com/wp-content/uploads/2022/07/PISCINA_AMA_BLANCO_60X120_2022-07-10-at-1.60.23-PM.jpeg') no-repeat center/cover;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header-content h2 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.header-content p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.button-section {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.interactive-button {
+  background-color: #25d366;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.interactive-button:hover {
+  background-color: #1eae58;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+
+  .button-section {
+    gap: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}
