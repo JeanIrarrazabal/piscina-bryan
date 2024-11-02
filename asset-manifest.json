@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/piscina-bryan/static/css/main.29de0cd5.css",
+    "main.js": "/piscina-bryan/static/js/main.07483efe.js",
+    "index.html": "/piscina-bryan/index.html",
+    "main.29de0cd5.css.map": "/piscina-bryan/static/css/main.29de0cd5.css.map",
+    "main.07483efe.js.map": "/piscina-bryan/static/js/main.07483efe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29de0cd5.css",
+    "static/js/main.07483efe.js"
+  ]
+}
