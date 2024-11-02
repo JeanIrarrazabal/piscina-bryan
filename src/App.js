@@ -11,11 +11,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/piscina-bryan"> {/* Ajusta el basename para GitHub Pages */}
         <Header />
         <div className="main-content">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home />} /> {/* Home como página inicial */}
             <Route path="/services" element={<Services />} />
             <Route path="/gallery" element={<Gallery />} />
           </Routes>

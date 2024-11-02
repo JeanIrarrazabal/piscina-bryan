@@ -32,7 +32,7 @@
 }
 
 .interactive-button {
-  background-color: #25d366;
+  background-color: #008f39;
   color: white;
   padding: 0.8rem 1.2rem;
   font-size: 1rem;
@@ -42,7 +42,7 @@
 }
 
 .interactive-button:hover {
-  background-color: #1eae58;
+  background-color: #0ef069;
 }
 
 /* Estilos responsivos */

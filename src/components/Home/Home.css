@@ -6,7 +6,7 @@
 
 /* Fondo de portada */
 .home-overlay {
-  height: 30vh;
+  height: 35vh;
   background: linear-gradient(
       rgba(0, 74, 173, 0.7),
       rgba(0, 74, 173, 0.7)
@@ -30,7 +30,7 @@
 }
 
 .cta-button {
-  background-color: #25d366;
+  background-color: #008f39;
   color: white;
   padding: 0.8rem 1.5rem;
   font-size: 1rem;
@@ -40,7 +40,7 @@
 }
 
 .cta-button:hover {
-  background-color: #1eae58;
+  background-color: #0ef069;
 }
 
 /* Sección de beneficios */
@@ -88,11 +88,11 @@
 }
 
 .testimonial-section .cta-button {
-  background-color: #0074ad;
+  background-color: #008f39;
 }
 
 .testimonial-section .cta-button:hover {
-  background-color: #005f8a;
+  background-color: #0ef069;
 }
 
 /* Estilos responsivos */
